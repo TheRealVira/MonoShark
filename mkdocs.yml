@@ -1,0 +1,19 @@
+site_name: MonoShark Docs
+repo_url: https://github.com/TheRealVira/MonoShark
+
+theme:
+  name: "material"
+
+plugins:
+- include-markdown
+- mkdocstrings:
+    default_handler: python
+    handlers:
+      python:
+        paths: [src]
+        options:
+          show_submodules: true
+
+nav:
+  - Home: index.md
+  - MonoShark Docs: monoshark.md

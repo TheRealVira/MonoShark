@@ -1,0 +1,7 @@
+pillow
+nltk
+numpy
+mkdocs
+mkdocs-material
+mkdocs-include-markdown-plugin
+mkdocstrings
